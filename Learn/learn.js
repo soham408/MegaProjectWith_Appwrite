@@ -107,3 +107,9 @@ fetch('https://api.github.com/users/soham408')
 .catch(function(){
     console.log('error');
 })
+
+let x = 5;
+let y = "10";
+let z = true;
+
+console.log(x + y + z);qq
