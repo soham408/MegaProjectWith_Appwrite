@@ -14,12 +14,14 @@ function Home() {
 
   if (posts.length === 0) {
     return (
-        <div className="w-full py-8 mt-4 text-center">
+        <div className="font-serif p-6 rounded-3xl bg-orange-200 w-full py-8 mt-4 text-center">
             <Container>
                 <div className="flex flex-wrap">
                     <div className="p-2 w-full">
                         <h1 className="text-2xl font-bold hover:text-gray-500">
-                            Login to read posts
+                            <div className='bg-white rounded-3xl'>
+                            Login To Read Posts
+                            </div>
                         </h1>
                     </div>
                 </div>
