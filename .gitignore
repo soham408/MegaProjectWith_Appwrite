@@ -7,8 +7,7 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-# Ignore environment variables
-.env
+
 
 node_modules
 dist
@@ -25,3 +24,4 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+.env
